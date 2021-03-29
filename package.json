@@ -1,17 +1,20 @@
 {
-  "name": "tlwind",
-  "version": "1.0.0",
-  "description": "Issue with JIT",
-  "main": "index.js",
-  "author": "Electrolyte Orb",
-  "license": "MIT",
-  "dependencies": {
-    "@snowpack/plugin-postcss": "^1.2.1",
-    "@tailwindcss/jit": "^0.1.17",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "postcss-cli": "^8.3.1",
-    "snowpack": "^3.1.2",
-    "tailwindcss": "^2.0.4"
-  }
+	"name": "tlwind",
+	"version": "1.0.0",
+	"description": "Issue with JIT",
+	"main": "index.js",
+	"author": "Electrolyte Orb",
+	"license": "MIT",
+	"scripts": {
+		"dev": "snowpack dev"
+	},
+	"dependencies": {
+		"@snowpack/plugin-postcss": "^1.2.1",
+		"@tailwindcss/jit": "^0.1.17",
+		"autoprefixer": "^10.2.5",
+		"postcss": "^8.2.8",
+		"postcss-cli": "^8.3.1",
+		"snowpack": "^3.1.2",
+		"tailwindcss": "^2.0.4"
+	}
 }
